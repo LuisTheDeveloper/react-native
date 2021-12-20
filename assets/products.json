@@ -1,0 +1,111 @@
+[
+    {
+      "id": 1,
+      "name": "Ho-ho-ho! courage of death.",
+      "image": "https://picsum.photos/id/1/400/300",
+      "short_description": "When the dubloon hobbles for tortuga, all breezes burn scrawny, cold sharks.",
+      "description": "Lorem ipsum",
+      "price": 10000,
+      "discount": null,
+      "discount_type": null,
+      "order": 1,
+      "category": "Pirate"
+    },
+    {
+      "id": 2,
+      "name": "Everyone loves the sourness of meatloaf cake marinated with packaged basil leafs.",
+      "image": "https://picsum.photos/id/2/400/300",
+      "short_description": "Remember: heated meatloaf tastes best when shreded in a bottle brushed with sugar.",
+      "description": "dolor sit",
+      "price": 2400,
+      "discount": 25,
+      "discount_type": "percentage",
+      "order": 2,
+      "category": "Culinary"
+    },
+    {
+      "id": 3,
+      "name": "I contact this wind, it's called real devastation.",
+      "image": "https://picsum.photos/id/3/500/300",
+      "short_description": "Pedantically outweigh a nanomachine.",
+      "description": "consectetur adipiscing",
+      "price": 1000,
+      "discount": 1000,
+      "discount_type": "amount",
+      "order": 1,
+      "category": "Sci-Fi"
+    },
+    {
+      "id": 4,
+      "name": "Old passions lead to the fortune.",
+      "image": "https://picsum.photos/id/4/100/300",
+      "short_description": "Where is the clear lubber?",
+      "description": "Aliquam pharetra",
+      "price": 2300,
+      "discount": null,
+      "discount_type": null,
+      "order": 0,
+      "category": "Pirate"
+    },
+    {
+      "id": 5,
+      "name": "Mash up each side of the cucumber with eleven peaces of escargot.",
+      "image": "https://picsum.photos/id/5/300/300",
+      "short_description": "Warm twenty shrimps, bagel, and green curry in a large saucepan over medium heat, refrigerate for eleven minutes and season with some leek.",
+      "description": "Quisque viverra",
+      "price": 13000,
+      "discount": null,
+      "discount_type": null,
+      "order": 0,
+      "category": "Culinary"
+    },
+    {
+      "id": 6,
+      "name": "Why does the parasite view?",
+      "image": "https://picsum.photos/id/6/400/300",
+      "short_description": "The ancient mermaid impressively raises the vogon.",
+      "description": "sodales quis risus",
+      "price": 0,
+      "discount": null,
+      "discount_type": null,
+      "order": 2,
+      "category": "Sci-Fi"
+    },
+    {
+      "id": 7,
+      "name": "Endure me tobacco, ye clear cannon!",
+      "image": "https://picsum.photos/id/7/400/300",
+      "short_description": "Parrots grow from courages like cloudy anchors.",
+      "description": "tiam mollis imperdiet",
+      "price": 5000,
+      "discount": 100,
+      "discount_type": "percentage",
+      "order": 2,
+      "category": "Pirate"
+    },
+    {
+      "id": 8,
+      "name": "All children like warmed eggs in plain vinegar and corn syrup.",
+      "image": "https://picsum.photos/id/8/400/300",
+      "short_description": "Combine celery, herring and meatballs. rinse with delicious black cardamon and serve simmered with chicory. Enjoy!",
+      "description": "Suspendisse at velit",
+      "price": 400,
+      "discount": 100,
+      "discount_type": "amount",
+      "order": 1,
+      "category": "Culinary"
+    },
+    {
+      "id": 9,
+      "name": "Huge suns, to the bridge.",
+      "image": "https://picsum.photos/id/9/400/300",
+      "short_description": "Ships warp with honor at the vital solar system!",
+      "description": "ornare felis finibus sit amet.",
+      "price": 10000,
+      "discount": null,
+      "discount_type": null,
+      "order": 0,
+      "category": "Sci-Fi"
+    }
+  ]
+  
