@@ -4,9 +4,12 @@ import allProducts from "../assets/allProducts.json";
 const fetchProducts = async () => {
   // Simulating an API Request
   try {
-    //const response = await transformData(producs);
+    // This part needs investigation to check why is not working here.
+    // in Node.js the reduce + map it works fine
+    //const response = transformData(producs);
+    //console.log("response: ", response);
+
     const response = allProducts;
-    //console.log("FETCH ", response);
     return response;
   } catch (error) {
     console.error(error);
@@ -16,22 +19,18 @@ const fetchProducts = async () => {
 
 const transformData = (data) => {
   data.sort((a, b) => a.order - b.order);
-  return Object.entries(groupBy(data, "category"));
-  // .map((item) => {
-  //   return {
-  //     category: item[0],
-  //     data: item[1],
-  //   };
-  // });
+
+  return Object.entries(data.reduce(groupByCategory, {})).map(
+    ([category, data]) => ({
+      category,
+      data,
+    })
+  );
 };
 
-const groupBy = (array, key) => {
-  return array.reduce((result, currentValue) => {
-    (result[currentValue[key]] = result[currentValue[key]] || []).push(
-      currentValue
-    );
-    return result;
-  }, {});
+const groupByCategory = (prev, curr) => {
+  prev[curr.category] = [...(prev[curr.category] || []), curr];
+  return prev;
 };
 
 export default fetchProducts;

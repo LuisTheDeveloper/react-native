@@ -26,7 +26,6 @@ const Market = () => {
       .finally(() => setLoading(false));
   }, [data]);
 
-  console.log("data: ", data);
   return (
     <SafeAreaView>
       {isLoading ? (
